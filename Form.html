@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <center>
+      <h2>User Information Form</h2>
+    </center>
+    <form>
+      <label for="name">Name:</label><br />
+      <div class="flex">
+        <div style="flex-basis: max-width">
+          <select id="'title" required>
+            <option value=""> Title</option>
+            <option> Mr.</option>
+            <option> Miss</option>
+            <option> Mrs.</option>
+            </select>
+        </div>
+      </select>
+      <input type="text" id="name" name="name" required /><br />
+    </div>
+      <label for="phone">Phone Number:</label><br />
+      <input type="tel" id="phone" name="phone" required /><br />
+
+      <label for="address">Address:</label><br />
+      <textarea id="address" name="address" required></textarea><br />
+
+      <label for="email">Email Address:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="gender">Gender:</label><br />
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" required />
+      <label for="other">Other</label><br />
+
+      <label for="dob">Date of Birth:</label><br />
+      <input type="date" id="dob" name="dob" required /><br />
+
+      <label for="about">About Yourself:</label><br />
+      <textarea id="about" name="about"></textarea><br />
+      
+        <label for="color"> Favourite Color:</label>
+        <input id=""color" type="color" /> <br/>
+      
+
+      <label for="resume">Upload Resume and CV:</label><br />
+      <input type="file" id="resume" name="resume" multiple required /><br />
+
+      <input type="checkbox" id="agree" name="agree" required />
+      <label for="agree">I agree to the terms and conditions</label><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
